@@ -1163,6 +1163,6 @@ test_program = [
 def get_hex_program(item_list):
     program = "0x"
     for item in item_list:
-        program += get_hex_value(item)[2:]
+        program += get_hex_value(item)[2:].upper()
 
     return program

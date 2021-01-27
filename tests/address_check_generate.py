@@ -17,4 +17,3 @@ program_commands = [
 
 bytecode = get_hex_program(program_commands)
 print(bytecode)
-print(len(bytecode)/2 - 2)
